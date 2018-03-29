@@ -1,0 +1,30 @@
+mat-grid-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #3b3939;
+    font-family: arial;
+    padding-bottom: 20px;   
+
+    mat-grid-tile{
+        height: 20px!important;
+        width: 193px!important;
+        text-align: center;
+        background: #0a7987;       
+        padding: 10px;       
+        font-size: 14px;  
+        border-radius: 5px;
+        box-shadow: 0px 2px 1px #000;  
+        margin: 23px;    
+
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+
+
+
+ 
+

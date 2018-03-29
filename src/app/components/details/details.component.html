@@ -1,0 +1,12 @@
+<h1>{{displayInfo.date | date:'fullDate'}}</h1>
+<div class="holidayDetails">
+        <mat-grid-list cols="1" rowHeight="100px" *ngFor="let data of displayInfo.value; let ind = index" >
+                <p class="holidayname">{{data.name}}</p>
+                <p *ngIf="data.public" class="holidayDescnotPublic">( This is public holiday )</p>                
+                <p *ngIf="!data.public" class="holidayDesc">( This is not public holiday )</p>                
+                <div class="divider" *ngIf="!(ind == displayInfo.value.length - 1)"></div>
+                </mat-grid-list>
+           
+              
+</div>
+<div class="backbutton"><a routerLink="/" >Home Page</a></div>

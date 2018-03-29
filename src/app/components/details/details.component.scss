@@ -1,0 +1,54 @@
+.holidayDetails{
+    background: #0a7987;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 2px;
+    padding: 10px;
+    color:#fff;
+    font-family: arial;   
+    p{
+        margin:0px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .holidayname{
+        background: #0e6b76;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .holidayDesc{
+        text-align: right;
+        font-size: 12px;
+        font-style: italic;
+        padding-left: 4px;
+        color: #52c9d7;
+    }
+    .holidayDescnotPublic{
+        text-align: right;
+        font-size: 12px;
+        font-style: italic;
+        padding-left: 4px;        
+    }
+    .notpublicDay{    
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .divider{
+        border-bottom: 1px solid #ccc;        
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.backbutton{
+    text-align: center;  
+    padding: 10px;
+    font-family: arial;  
+   
+    a{
+        color: #0e6b76;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}

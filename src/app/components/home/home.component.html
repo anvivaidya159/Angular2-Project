@@ -1,0 +1,4 @@
+<h1>2015 Federal Holidays</h1>
+<mat-grid-list cols="4" *ngIf="holidays.length > 0" class="wrapper" rowHeight="60px">
+    <mat-grid-tile *ngFor="let holiday of holidays"><a routerLink="/details/{{holiday.date}}">{{holiday.date | date:'fullDate'}}</a></mat-grid-tile>
+</mat-grid-list>
